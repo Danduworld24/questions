@@ -1,0 +1,41 @@
+what is spark context
+import pyspark
+from pyspark import sparkcontext
+from pyspark.sql import sparksesssion
+from pysaprk.sql import spark context  
+
+
+uses :- it is used to create, rdds ,accumulators, broad cast varilables and clusters
+https://youtu.be/qBleSwlTGB4?si=16-4Ke_GdcLzzsGT
+spark session
+ from pysaprk.sql.import spark sessiosn
+spark=session.builder.appname("python spark tuturiouls").config("saprk.driver.memoery",40g").get or create
+https://youtu.be/sdpfjECiMVI?si=NAtBR2NvPQWQTvD3
+>sprak context is the entry point to any job cluster
+it works around clusters and manages the excution and distrubited task
+
+spark core is nothing but rdd
+
+spark session is for authtication 
+spark contect is for autrization
+sql context aslo given privillages to sparrk seesion
+spark session is now both having autication and authrization
+
+rdd :- rdd(resilent distrubuted dataset )
+>its an collection of  immutuble jvm 
+>its allow to perfom clacuations very quickly back bank of apach spark 
+>dataset are slipt into juncks
+
+from pyspark.sql import saprk session
+saprk=spark session .builder.getOrcreate()
+spark=spark.saprkcontext.parellize(["mumbi",1),("cheannai",1)
+the data doesnt present in data set it will store in memory driver 
+to collect the data we have to 
+------------------------------------------------------------------------------------------
+hOW TO CREATE A dataframe from rdd
+import pyspark.sql import spark session
+from date time import date
+
+cretae data frame in pysaprk 
+from pysaprk.sql import pyspark
+df=spark.datarame(["red",2,"apple",2021),("orange",3,"grape"),("yellow",1,"bannana")],(schmea="colour string",id_no long, fruit string, data data")
